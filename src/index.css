@@ -19,4 +19,12 @@ code {
 
 .w-23{
   width: calc(25% - 2rem);
+  min-width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .w-23{
+    width: 100%;
+    min-width: 250px;
+  }
 }
